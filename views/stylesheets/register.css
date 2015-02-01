@@ -1,0 +1,99 @@
+
+#register
+{
+    display: block;
+    
+    width: 625px;
+   margin:auto;
+}
+
+#registerwrapper
+{
+    background: rgba(0, 0, 0, 0.53);
+    width: 900px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding:18px;
+}
+
+#register tr
+{
+    //padding-top:3px;
+    margin: 10px;
+}
+
+#register td
+{
+   padding:8px;
+   vertical-align: top;
+}
+
+#register input[type='text'], #register input[type='password']
+{
+    font-family: arial;
+    width:280px;
+    height:31px;
+    padding-left: 10px;
+    font-size: 19px;
+    margin-right: 14px;
+    
+    //border:none;
+    -webkit-transition: border 0.25s ease-out;
+       -moz-transition: border 0.25s ease-out;
+        -ms-transition: border 0.25s ease-out;
+         -o-transition: border 0.25s ease-out;
+            transition: border 0.25s ease-out;
+  
+}
+
+.inputerror
+{
+    border:2px solid brown;
+        -webkit-transition: border 0.925s ease-out;
+       -moz-transition: border 0.9s ease-out;
+        -ms-transition: border 0.9s ease-out;
+         -o-transition: border 0.9s ease-out;
+            transition: border 0.9s ease-out;
+}
+
+
+#register .dialog
+{
+    width: 302px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    right: 201px;
+    margin-top: 2px;
+    padding: 3px;
+    font-size: 14px;
+    background-color: rgba(92, 50, 50, 1);
+    margin: auto;
+    margin-top: 3px;
+    line-height: 25px;
+    //padding-left: 19px;
+    text-align: center;
+}
+
+.styled select {
+   background:transparent;
+   width: 320px;
+   padding: 5px;
+   font-size: 19px;
+   color:grey;
+   border: none;
+   height: 38px;
+    -webkit-appearance: none;
+    border:none;
+    z-index: 10;
+    
+} 
+
+.styled{
+    z-index: 1000;
+   width: 296px;
+   height: 38px;
+   overflow: hidden;
+   background: url('../image/dropdownarrow.png') no-repeat 96% #ddd;
+}

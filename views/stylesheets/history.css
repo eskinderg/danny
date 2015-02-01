@@ -1,0 +1,78 @@
+#historysidebar
+{
+    //background: goldenrod;
+    opacity: 0.9;
+    margin-right: 15px;
+}
+
+#historysidebar p
+{
+    padding:11px;
+   // border-bottom: 1px solid grey;
+    display: block;
+    margin:6px;
+    color:gold;
+    width:160px;
+    //margin-bottom: 6px; 
+    //margin-top:  6px;
+}
+
+#historysidebar p:hover
+{
+    cursor: pointer;
+    opacity: 1;
+    //background-color: rgba(164, 164, 74, 1);
+    //color:gold;
+     //box-shadow: 0px 0px 10px white;
+     //border-radius: 5px;
+}
+#historydescription
+{
+    margin-top:15px;
+    padding:13px;
+    background: black;
+    border-radius: 10px;
+}
+
+#historysidebar , #history-right-description
+{
+    margin-top:10px;
+}
+
+#history-right-description
+{
+    //background-color: goldenrod;
+    opacity: .8;
+    padding:10px;
+    border-left: 2px solid goldenrod;
+    padding-left: 20px;
+}
+
+#history-right-description #title
+{
+    color:gold;
+    margin-bottom: 6px;
+    background-color: black;
+    padding:5px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#history-right-description > div
+{
+    border:3px solid silver;
+    border-radius: 10px;
+    padding:10px;
+    //min-height: 600px;
+    border-bottom: none;
+    border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+}
+
+.active
+{
+    color: rgba(148, 240, 125, 1)  ! important;
+    font-weight: bold;
+     box-shadow: 0px 0px 5px yellow;
+     //border-radius: 5px;
+   
+}

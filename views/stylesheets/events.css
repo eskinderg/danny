@@ -1,0 +1,164 @@
+#eventlistcontainer
+{
+    width:200px;
+}
+#eventsidebar
+{
+    background: rgba(0, 0, 0, 0.61);
+    //opacity: 0.9;
+    margin-right: 15px;
+    width: 100%;
+    padding-right: 0px;
+    
+}
+
+.eventlist
+{
+    display: block;
+    padding:10px;
+    height:30px;
+    line-height: 30px;
+    color:gold;
+    border: 1px solid rgba(101, 92, 63, 1);
+    background:none;
+        
+    -webkit-transition: background 0.25s ease-in;
+       -moz-transition: background 0.25s ease-in;
+        -ms-transition: background 0.25s ease-in;
+         -o-transition: background 0.25s ease-in;
+            transition: background 0.25s ease-in;
+            border-right: none;
+            border-left: none;
+            border-bottom: none;
+}
+
+#eventsidebar .eventlist:hover
+{
+    cursor: pointer;
+    
+    background-color: rgba(69, 69, 34, 1);
+    
+}
+
+#eventsidebar .eventlist:hover > .eventticker
+{
+        -webkit-transition: opacity 0.9s ease-in-out;
+       -moz-transition: opacity 0.9s ease-in-out;
+        -ms-transition: opacity 0.9s ease-in-out;
+         -o-transition: opacity 0.9s ease-in-out;
+            transition: opacity 0.9s ease-in-out;
+    
+    visibility: visible;
+    opacity: 1;
+       
+}
+
+
+.eventticker
+{
+    
+    cursor:default;
+    position:absolute;
+    width:450px;
+    height:280px;
+    left:198px;
+    margin-top:-47px;
+    
+
+    padding:10px;
+    background-color: rgba(24,24,24,1);
+    border: 1px solid #726A16;
+    box-shadow: 0px 2px 9px #5B5A5B;
+    
+    opacity: 0;
+    //display:none;
+    transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    visibility: hidden;   
+}
+
+
+
+#eventdescription
+{
+    margin-top:15px;
+    padding:13px;
+    background: black;
+    //border-radius: 10px;
+    min-height: 500px;
+}
+
+#eventsidebar , #event-right-description
+{
+    z-index: 1;
+    margin-top:10px;
+}
+
+#event-right-description
+{
+    //background-color: goldenrod;
+    position: relative;
+    opacity: 1;
+    padding:10px;
+    border-left: 2px solid goldenrod;
+    padding-left: 20px;
+    z-index: 0;
+}
+
+#event-right-description #title
+{
+    color:gold;
+    margin-bottom: 6px;
+    background-color: black;
+    padding:10px;
+    //border-radius: 5px;
+    padding-left: 8px;
+}
+#event-right-description > div
+{
+    //border:3px solid silver;
+    //border-radius: 10px;
+    padding:10px;
+    //min-height: 600px;
+    border-bottom: none;
+    border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+}
+
+.active
+{
+    color: rgba(148, 240, 125, 1)  ! important;
+    font-weight: bold;
+     box-shadow: 0px 0px 5px yellow;
+     border-radius: 5px;
+   
+}
+
+
+
+#eventsidebar > .eventlist > .eventticker > .tickerimage
+{
+    margin-top:0px;
+    margin-left: 4px;
+    float:right;
+    
+    width:100px;
+    height:100px;
+    
+    border:1px solid rgba(101, 92, 63, 1);
+    
+}
+
+#eventsidebar > .eventlist > .eventticker > .tickerarrow
+{
+    margin-top:11px;
+    left:-15px ! important;
+    z-index: 10000000 ! important;
+    position: absolute;
+    background: url('../image/tickerarrow.png')no-repeat;
+    width:30px;
+    height:30px;
+}
