@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width:913px)
+@media only screen and (min-width:970px)
 {
     html
     {
@@ -26,7 +26,9 @@
 
     body
     {
-        font-family: 'Open Sans',sans-serif;
+        font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+        //font-family: 'PT Sans Narrow', sans-serif;
         //background:url('../../image/2_1_damask-dark-no-micro.png');
         background-repeat: repeat;
         background-attachment: fixed;
@@ -173,6 +175,7 @@
 
         //background-color: rgba(0,0,0,1);
         border-bottom: 1px solid #E0E0E0;
+        background-color: #E9E9E9;
         
     }
     
@@ -197,7 +200,7 @@
         height: 100%;
         list-style-type: none;
         width:134px;
-        border-left: 1px solid #C0C0C0; 
+        //border-left: 1px solid #C0C0C0; 
        //text-align: center;
        //margin-right: 53px;
     }
@@ -213,7 +216,7 @@
         text-align: center;
         height: 100%;
         display: block;
-        color: black;
+        color: #870303;
         font-size: 22px;
         
         background:none;
@@ -224,11 +227,41 @@
                 transition: all 0.25s ease-in;
     }
 
-    #menu a:hover
-    {
 
-        background-color: #E3E3E3;
-        color:black;
+    
+    #menu .homebutton a
+    {
+       color:#76BF00;
+    }
+    
+    #menu .servicesbutton a
+    {
+        color:#4553FF;
+    }
+    
+    #menu .contactusbutton a
+    {
+        color:#B96200;
+    }
+    #menu .aboutusbutton a
+    {
+        color:#DD2740;
+    }
+    
+    
+    #menu > li > a
+    {
+      -webkit-transition: all 0.25s ease-out; 
+      -moz-transition: all 0.25s ease-out; 
+      -o-transition: all 0.25s ease-out; 
+      transition: all 0.25s ease-out;
+    }
+    
+    #menu > li > a:hover
+    {
+        background-color: #E0E0E0;
+        font-size: 20px;
+
     }
     
     #title
@@ -242,10 +275,40 @@
         vertical-align: middle;
         font-size: 31px;
         padding: 8px 6px 6px 0px;
-        font-weight: bold;
-        color: black;
+        font-weight: 400;
+        color: #0063AD;
         margin-right: 5px;
         line-height: 56px
+    }
+    
+    .header
+    {
+        font-size:30px;
+        padding: 20px;
+        color:white;
+        text-align: center; 
+        font-weight: 300;
+    }
+    
+    #map-canvas
+    
+    {
+        height:450px;
+    }
+    
+    
+    .uparrow
+    {
+        position:absolute;
+        width:70px;
+        height:70px;
+        //border:1px solid black;
+        right:15px;
+        margin-top:5px;
+        background:url('../../image/arrowup.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
     }
     
 }

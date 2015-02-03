@@ -6,7 +6,7 @@ class header extends controller{
         
         //$this->documnet->setTitle('Home');
         
-        $this->data['header_title']='Bethesda Custom Framing';
+        //$this->data['header_title']='Danny Cell Phone Repair';
         //$this->document->addScript(HTTP_SERVER .'views/scripts/main.js');
         
         $this->data['scripts'] = $this->document->getScripts();
@@ -25,8 +25,10 @@ class header extends controller{
             $this->data['logout_text']= "<a href=' ".HTTP_SERVER."logout'><img alt = 'Logout' src='../views/image/logout-icon.png'></a>";
         }else*/
         
-             $this->data['menus']= array('About Us'=>'aboutus',
+             $this->data['menus']= array(
+                 'About Us'=>'aboutus',
                  'Contact Us'=>'contactus',
+                 'Services' => 'services',
                  'Home' => 'home');
            
         

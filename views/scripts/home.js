@@ -161,6 +161,25 @@ $('.image-link').magnificPopup({
     });
 // scrolling function end
 
+//up arrow click
+
+        $('.uparrow').click(function(e){
+                e.preventDefault();
+                var txt = $(this).children('a').attr('link');
+
+                if(txt=='contactus')
+                {
+                    $('html,body').animate({scrollTop: 0},1000);
+                }
+                else
+                {
+                    $('html,body').animate({scrollTop: 0},1000);
+                }
+
+
+
+            });
+
     $('#menu > li').click(function(){
         
         $(this).children('a').css('');

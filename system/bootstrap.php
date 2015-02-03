@@ -36,7 +36,39 @@ private $registry;
                 
                
                 
-                if(file_exists('controllers/'. $url[0].'/'.$url[1].'.php')){
+                
+                if( $url[0]==NULL)                     // danny.com
+                {
+                    
+                    require 'controllers/home.php';
+                    $controller = new home($this->registry);
+                    $controller->index();
+                    exit();
+                    
+                }
+                
+                $file = 'controllers/' . $url[0] . '.php';
+                
+                if (file_exists($file))
+                {
+                    include_once $file;
+                    $controller = new $url[0]($this->registry);
+                    $controller->index();
+                }
+
+                else 
+                    {
+                    /*require 'controllers/pageprofile.php';
+                    $profile = new pageprofile($this->registry);
+                    $profile->index($url[0]);
+                    $this->invoke_methods($profile, $url);
+                    */
+                    $this->error();
+                    exit();
+                }
+                
+                
+                /*if(file_exists('controllers/'. $url[0].'/'.$url[1].'.php')){
                     $file = 'controllers/'. $url[0].'/'.$url[1].'.php';
                     require $file;
                     $controller = new $url[1]($this->registry);
@@ -58,59 +90,11 @@ private $registry;
                             }
                     }
                     
-                    
-                  /*  if(method_exists($controller, $url[2]($url[3])))
-                    {
-                        $controller->$url[2]($url[3]);
-                    }
-                    */
-                    /*if(has arguments)     */
-                    
                     exit();
-                }elseif($url[0]!='' && $url[1]!='')
-                {
-                    require 'controllers/pageprofile.php';
-                    $profile = new pageprofile($this->registry);
-                    $profile->index($url[0]);
-                    
-                    if (method_exists($controller, $url[1]))
-                    { $controller->$url[1]();}
-                    
-                    $this->invoke_methods($profile, $url);
-                    exit(); 
                 }
-                
-                
-                
-                if( $url[0]==NULL)                     // eskinder.net
-                {
-                    
-                    require 'controllers/home.php';
-                    $controller = new home($this->registry);
-                    $controller->index();
-                    exit();
-                    
-                }
-                
-                $file = 'controllers/' . $url[0] . '.php';
-                
-                if (file_exists($file))
-                {
-                    include_once $file;
-                    $controller = new $url[0]($this->registry);
-                    $controller->index();
-                }
+                 * 
+                 */
 
-                else {
-                    require 'controllers/pageprofile.php';
-                    $profile = new pageprofile($this->registry);
-                    $profile->index($url[0]);
-                    $this->invoke_methods($profile, $url);
-                    exit();
-                    
-                    
-                    
-                }
                     
 
                 

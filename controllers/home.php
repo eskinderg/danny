@@ -15,6 +15,8 @@
                //$this->redirect('dashboard');
            }
            
+           $this->document->addScript('https://maps.googleapis.com/maps/api/js?sensor=false');
+           
            $this->document->addScript('views/scripts/ajax.js');
            
            $this->document->addScript('views/scripts/home.js');
@@ -46,7 +48,7 @@
            
            
             $this->template='home';
-            $this->children = array('common/header','common/footer');
+            $this->children = array('common/header','common/footer','common/feedback');
 
             
             

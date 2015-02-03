@@ -3,10 +3,15 @@
 <head>
         <meta charset="UTF-8">
        
-        <title></title>
+        <title> Danny Cell Phone Repair </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <base href="<?php echo $base;?>">        
         <link rel="stylesheet" type="text/css" href="<?php echo HTTP_SERVER;?>views/stylesheets/style.css" />
+        
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
+       
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+        
         
     <?php foreach ($styles as $style) { ?>
         <link rel="stylesheet" type="text/css" href="<?php echo HTTP_SERVER . $style['href']; ?>" media="<?php echo $style['media']; ?>" />
@@ -45,8 +50,8 @@
               <li>Repairs</li>
               <li>Contact Us</li>
               <li>About Us</li>
-              
-              
+
+
           </ul>
           
       </div>
@@ -71,9 +76,9 @@
                  foreach ($menus as $menu => $href) 
                  {
                     if(mb_strtolower($new_str = str_replace(' ', '', $menu))==mb_strtolower($this->url))
-                        echo "<li><a class='activemenu' href='/". $href . "' link='" . $href . "'> ". $menu . "</a></li>";
+                        echo "<li><a class='' href='/". $href . "' link='" . $href . "'> ". $menu . "</a></li>";
                     else
-                        echo "<li><a href='/". $href . "' link= '".$href."'> ". $menu . "</a></li>";
+                        echo "<li class='". $href . "button" . " ' ><a href='/". $href . "' link= '".$href."'> ". $menu . "</a></li>";
 
                  }
 

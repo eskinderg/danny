@@ -45,69 +45,7 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: default; position: absolute; left: 0px; top: 0px; width: 1300px;
             height: 500px; overflow: hidden;">
-            
-            <!--
-            <div>
-                <img u="image" src="../customframing/views/scripts/jssor/img/1920/red.jpg" />
- 
-
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; right: 30px; padding: 5px;
-                    text-align: right; line-height: 60px; text-transform: uppercase; font-size: 45px;
-                    color: black;"> Bethesda Custom Framing
-                </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 300px; right: 30px; padding: 5px;
-                    text-align: right; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                        Build your slider with anything, includes image, content, text, html, photo, picture
-                </div>
-            </div>
-
-            -->
-        <!--    
-            <div>
-                <img u="image" src="../customframing/views/scripts/jssor/img/1920/matt.jpg" />
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; right: 30px; padding: 5px;
-                    text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: #C8CC20;text-shadow: 0px 0px 5px white;">
-                </div>
-                <div style="position: absolute; width: 460px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                    text-align: left; line-height: 28px; font-size: 20px;
-                        color: #C8CC20;background-color: rgba(0,0,0,0.5);padding-left: 30px;border-radius: 10px;">
-                        Our exclusive gallery collection of fine matboard, each piece as unique as the art it is designed to complement.
-                </div>
-            </div>
--->
-            
-
-            
-            <!--
-            <div>
-                <img u="image" src="../customframing/views/scripts/jssor/img/1920/purple.jpg" />
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; right: 30px; padding: 5px;
-                    text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: goldenrod;text-shadow: 0px 0px 5px black;"> <!-- Our Store -->
-        <!--        </div>
-                <div style="position: absolute; width: 480px; height: 120px; top: 300px; left: 30px; padding: 5px;
-                    text-align: left; line-height: 36px; font-size: 30px;
-                        color: #FFFFFF;">
-                       <!-- Build your slider with anything, includes image, content, text, html, photo, picture -->
-         <!--       </div>
-            </div>
-            -->
-            <!--
-            <div>
-                <img u="image" src="../customframing/views/scripts/jssor/img/1920/Smartphones.png" />
-                <div style="position: absolute; width: 480px; height: 120px; top: 30px; right: 30px; padding: 5px;
-                    text-align: right; line-height: 60px; text-transform: uppercase; font-size: 50px;
-                        color: white;">
-                </div>
-                <div style="position: absolute; width: 330px; height: 37px; top: 30px; right: 30px; padding: 5px;
-                    text-align: left; line-height: 36px; font-size: 30px;
-                        color: black;padding-left: 30px;border-radius: 10px;">
-                        Repair Collection
-                </div>
-            </div>
-            -->
+        
             
             <div>
                 <img u="image" src="../views/scripts/jssor/img/1920/phonelarge.png" />
@@ -228,13 +166,177 @@
 </div>
 -->
 
+<div  id='home' style='border-bottom: 1px solid #ADADAD;'>
+    
+    <div class='uparrow'>
+        
+    </div>
+    
+    <h2 class='header' style=' background-color: #9BB76D;'>Home</h2>
+    
+            <div class ="description" style=''>
+                    With the technology of today, people typically use their cell phones for a number of other tasks besides simply making phone calls or sending text messages. Therefore, it is important that this equipment works reliably. Whether it is be a laptop, a cell phone, or an iPad, we are becoming increasingly dependent on technology and electronic devices. As such, it is vitally important that our gadgets and electronics remain fully operational and at maximum efficiency so that our productivity and convenience are not compromised. Losing a phone or needing an iPad screen replacement can quickly become a serious problem for many individuals. Therefore, it is imperative to know where to turn for affordable and high quality electronics and cell phone repair services.
+            </div>
+       
+</div> 
+
+
+<div id='bgimagewine' style='height:350px;padding:6px; position: static;background-attachment: fixed;z-index: 1;
+     background-image: url("../views/image/dannylogo.svg");
+     background-repeat: no-repeat;background-position: center center ;background-color: #E6E4E4;'>
+</div>   
+
+
+
+
+<div id='services' style=''>
+    
+    <div class='uparrow'>
+        
+    </div>
+    
+    
+    <h2 class='header' style='background-color: #6A75FC;'>Services</h2>
+
+        <div class ="description" style=''>
+                we are much more than just a cell phone repair shop. We also offer all the accessories you need to protect, personalize and outfit your cell phone or other electronic device. Our cutting-edge stores carry a large selection of screen protectors, headphone and speakers to go along with your devices. We also carry a wide array of cell phone carrying cases and covers. You can choose from one of our fashion-forward designs, or you can design your own to suit your specific style. In addition, we offer cash for used cell phones and tablet computers, so you can always stay current with the most upgraded models. 
+        </div>
+    
+    <div id='serviceboxwrapper' style=''>
+        <div id ='servicesleft' class='servicesbox'>
+            
+            <ul> 
+                <li>Service 1</li>
+                <li>Service 1</li>
+                <li>Service 1</li>
+                <li>Service 1</li>
+            </ul>
+
+        </div>
+
+        <div id ='servicesright' class='servicesbox'>
+            <ul> 
+                <li>Service 2</li>
+                <li>Service 2</li>
+                <li>Service 2</li>
+                <li>Service 2</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<div id='aboutus' style='height:600px;'>
+    
+    <div class='uparrow'>
+        
+    </div>
+    
+    <h2 class='header'style='background-color: #DD485D;'>About Us</h2>
+    
+
+            <div class ="description" style=''>
+                    We are the best in the business
+            </div>
+</div>
    
     
 <div id="contactus" style=''>
-    <h2 style="text-align: center;margin-bottom: 17px;padding:25px;">Contact Us</h2>    
     
-    <h2> 1905 9TH ST NW</h2>
-    <h2> Washington, District of Columbia</h2>
+    <div class='uparrow'>
+        
+    </div>
+    <h2 class='header' style="background-color: #B76508;">Contact Us</h2>    
+    
+    <div id="map-canvas" style="width:100%;">
+        
+    </div>
+    
+    <script>
+        /*
+             var locations = [
+           ['Sample', -33.890542, 151.274856, 4],
+           ['Eskinder', -33.923036, 151.259052, 5],
+           ['Getahun', -34.028249, 151.157507, 3],
+           ['Gezahagne', -33.80010128657071, 151.28747820854187, 2],
+           ['Addis', -33.950198, 151.259302, 1]
+         ];
+        */
+       
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+               zoom: 15,
+               //center: new google.maps.LatLng(-33.92, 151.25),
+               mapTypeId: google.maps.MapTypeId.ROADMAP
+             });
+
+             
+
+             var marker;
+             /*
+             for (i = 0; i < locations.length; i++) { 
+               marker = new google.maps.Marker({
+                 position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                 map: map
+               });
+               */
+              
+        <?php
+            foreach($locations as $location)
+            {?>
+                // marker = new google.maps.Marker({
+                // position: new google.maps.LatLng(<?php echo $location['lat']; ?>, <?php echo $location['long'] ?>),
+                // map: map,
+                // title: 'Sample'
+                // });
+        <?php
+            }
+        ?>
+                       
+        geocoder = new google.maps.Geocoder();
+        
+        var address = "1905 9th St NW, Washington, DC 20001";
+        var firstname = "Danny Cell Phone Repair";
+        
+        geocoder.geocode( { 'address': address}, function(results, status) {
+          if (status === google.maps.GeocoderStatus.OK) 
+          {
+                console.log(results);
+
+                map.setCenter(results[0].geometry.location);
+
+                var marker = new google.maps.Marker({
+                    icon: {path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                    scale: 7},
+                    map: map,
+                    position: results[0].geometry.location
+                });
+                
+                
+            var infowindow = new google.maps.InfoWindow();
+            
+            var content = "<div id='mapaddress' > " +
+                            firstname + "<br>" + address 
+             
+                            + "</div>";
+        
+           // google.maps.event.addListener(marker, 'click', function() {
+                   infowindow.setContent(content);
+                   infowindow.open(map, marker);
+                 
+            //   });
+               
+                
+          } 
+          else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+        
+
+
+         
+    </script>
     
     
     <!--
@@ -290,43 +392,11 @@
     -->
     
 </div>
-
-
-    
- 
-<div id='home' style='padding:6px; position: relative;line-height: 25px;padding-bottom:20px;border-bottom: 1px solid #ADADAD;
-box-shadow: 0px 5px 8px #C0C0C0;'>
-    
-    <h2 style='text-align: center; padding:10px;'>Home</h2>
-       
-</div>   
-    
-
-<div id='bgimagewine' style='height:400px;padding:6px; position: static;background-attachment: fixed;z-index: 1;
-     background-image: url("../image/dannylogo.png");
-     background-repeat: no-repeat;background-position: center center ;background-size: cover;'>
-    
-    
-</div>    
-    
-    
-    
-    
-<div id='aboutus' style='height:600px;'>
-    <h2 style='text-align: center;padding:25px;'>About Us</h2>
-    
-            <div style=' text-align: center; line-height: 30px;font-size: 16px; padding-top: 20px;padding:6px;
-                 font-size: 25px;color:grey;'>
-                    We are the best in the business
-            </div>
-</div>
-
-   
     
   
 </div>
     
-    
+<!--    
 <div id ="popup">
     
     <div id='popupcontent'>
@@ -340,6 +410,9 @@ box-shadow: 0px 5px 8px #C0C0C0;'>
     </div>
     
 </div>
+-->         
+                    
+<?php echo $feedback; ?>
 
     
 <?php echo $footer; ?>
